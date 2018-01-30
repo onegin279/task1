@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: MyRefactoringTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.204 sec <<< FAILURE!
+Test(MyRefactoringTest)  Time elapsed: 35.439 sec  <<< FAILURE!
+java.lang.AssertionError: Значение поля [Дата рождения] равно [15.06.1987]. Ожидалось - [15061987]
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at steps.SendAppSteps.checkFillField(SendAppSteps.java:46)
+	at steps.SendAppSteps.lambda$checkFillFields$1(SendAppSteps.java:71)
+	at java.util.HashMap.forEach(HashMap.java:1289)
+	at steps.SendAppSteps.checkFillFields(SendAppSteps.java:71)
+	at MyRefactoringTest.Test(MyRefactoringTest.java:54)
+
