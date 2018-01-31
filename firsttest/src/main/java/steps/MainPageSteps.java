@@ -1,7 +1,6 @@
 package steps;
 
-import com.sun.xml.internal.rngom.parse.host.Base;
-import org.openqa.selenium.WebDriver;
+
 import pages.MainPage;
 import ru.yandex.qatools.allure.annotations.Step;
 

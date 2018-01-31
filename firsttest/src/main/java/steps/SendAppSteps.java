@@ -2,6 +2,7 @@
 package steps;
 
 
+import org.junit.Ignore;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
@@ -47,6 +48,10 @@ public class SendAppSteps extends BaseSteps {
                 actual.equals(value));
     }
 
+    @Step("Клик по продолжить")
+    public void clickProdol(){new SendAppPage().prodButton.click();
+    }
+
     @Step("в поле {0} присутствует сообщение об ошибке {1}")
     public void checkErrorMessage() {
         //new SendAppPage().error.isDisplayed();
@@ -54,17 +59,12 @@ public class SendAppSteps extends BaseSteps {
         wait.until(ExpectedConditions.visibilityOf(new SendAppPage().error));
     }
 
-    @Step("заголовок страницы - Отправить заявку равен {0}")
-    public void checkPageTitle(String expectedTitle) {
-        String actualTitle = new SendAppPage().title.getText();
-        assertTrue(String.format("Заголовок равен [%s]. Ожидалось - [%s]",
-                actualTitle, expectedTitle), actualTitle.contains(expectedTitle));
-    }
 
     @Step("заполняются поля")
     public void fillFields(HashMap<String, String> fields) {
         fields.forEach((k, v) -> fillField(k, v));
     }
+
 
     @Step("поля заполнены верно")
     public void checkFillFields(HashMap<String, String> fields) {

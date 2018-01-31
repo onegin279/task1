@@ -1,0 +1,81 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 5,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 3,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "8491271f46059892",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 5,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 3,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "be12bba8ba539d03",
+        "name" : "Test",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517429498512,
+          "stop" : 1517429527518,
+          "duration" : 29006
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1ea7d9446fcb9af9",
+        "name" : "Test",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517427271908,
+          "stop" : 1517427340642,
+          "duration" : 68734
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "785c91459d5237fb",
+        "name" : "Test",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517429286100,
+          "stop" : 1517429315605,
+          "duration" : 29505
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "5170d8cc28ec08bc",
+        "name" : "Test",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517430246889,
+          "stop" : 1517430306031,
+          "duration" : 59142
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "82574d6a4c23a345",
+        "name" : "Test",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517429433372,
+          "stop" : 1517429462483,
+          "duration" : 29111
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

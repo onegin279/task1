@@ -151,10 +151,8 @@ public class SendAppPage {
         element.sendKeys(value);
     }
 
-    public void clickElement(WebElement element) {
-        element.click();
 
-    }
+
 
 }
 

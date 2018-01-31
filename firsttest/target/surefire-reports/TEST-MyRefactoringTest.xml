@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyRefactoringTest" time="35.439" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MyRefactoringTest" time="60.336" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.2.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,20 +62,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Test" classname="MyRefactoringTest" time="35.439">
-    <failure message="Значение поля [Дата рождения] равно [15.06.1987]. Ожидалось - [15061987]" type="java.lang.AssertionError">java.lang.AssertionError: Значение поля [Дата рождения] равно [15.06.1987]. Ожидалось - [15061987]
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at steps.SendAppSteps.checkFillField(SendAppSteps.java:46)
-	at steps.SendAppSteps.lambda$checkFillFields$1(SendAppSteps.java:71)
-	at java.util.HashMap.forEach(HashMap.java:1289)
-	at steps.SendAppSteps.checkFillFields(SendAppSteps.java:71)
-	at MyRefactoringTest.Test(MyRefactoringTest.java:54)
-</failure>
-    <system-err>Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 15584
-Only local connections are allowed.
-янв 31, 2018 12:07:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
+  <testcase name="Test" classname="MyRefactoringTest" time="59.687"/>
 </testsuite>
