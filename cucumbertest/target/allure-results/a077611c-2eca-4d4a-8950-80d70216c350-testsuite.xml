@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517663447243" stop="1517663505394" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Страхование</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1517663447654" stop="1517663505390" status="broken">
+            <name>Страхование путешественников</name>
+            <title>Страхование путешественников</title>
+            <description type="text"></description>
+            <failure>
+                <message>TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (611a106abccaf279dbe75c072be159db)] -&gt; xpath: //*[contains(@class,'b-form-box-title ng-binding')][(text()='Минимальная')]] (tried for 10 second(s) with 1000 MILLISECONDS interval)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: 611a106abccaf279dbe75c072be159db</message>
+                <stack-trace>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (611a106abccaf279dbe75c072be159db)] -&gt; xpath: //*[contains(@class,'b-form-box-title ng-binding')][(text()='Минимальная')]] (tried for 10 second(s) with 1000 MILLISECONDS interval)
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: 611a106abccaf279dbe75c072be159db
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at steps.SendAppSteps.clickMinimal(SendAppSteps.java:33)
+	at steps.ScenarioSteps.clickMinimal(ScenarioSteps.java:45)
+	at ✽.Когда нажатие на Минимальная(Страхование.feature:14)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1517663482110" stop="1517663484704" status="passed">
+                    <name>Когда выбран пункт меню "Застраховать"</name>
+                    <title>Когда выбран пункт меню "Застраховать"</title>
+                    <steps>
+                        <step start="1517663483555" stop="1517663484702" status="passed">
+                            <name>selectMainMenu[Застраховать]</name>
+                            <title>Выбран пункт меню - Застраховать себя и имущество</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663484705" stop="1517663488941" status="passed">
+                    <name>Тогда выбран пункт меню Страхование путешественников</name>
+                    <title>Тогда выбран пункт меню Страхование путешественников</title>
+                    <steps>
+                        <step start="1517663484706" stop="1517663488941" status="passed">
+                            <name>selectSubMenu</name>
+                            <title>Выбран пункт меню - Страхование путешественников</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663488941" stop="1517663490260" status="passed">
+                    <name>Когда выполнено нажатие на картинку Оформить</name>
+                    <title>Когда выполнено нажатие на картинку Оформить</title>
+                    <steps>
+                        <step start="1517663488943" stop="1517663490259" status="passed">
+                            <name>stepExecuteButton</name>
+                            <title>Выполнено нажатие на кнопку Оформить</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663490260" stop="1517663490304" status="passed">
+                    <name>Когда выполнен переход на новую вкладку</name>
+                    <title>Когда выполнен переход на новую вкладку</title>
+                    <steps>
+                        <step start="1517663490261" stop="1517663490303" status="passed">
+                            <name>chVkladka</name>
+                            <title>Переход на следующую вкладку</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663490304" stop="1517663504226" status="broken">
+                    <name>Когда нажатие на Минимальная</name>
+                    <title>Когда нажатие на Минимальная</title>
+                    <attachments>
+                        <attachment title="Скриншот в момент ошибки" source="3ac93eec-52a6-410f-9933-e2a6ee68770d-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1517663490306" stop="1517663503002" status="broken">
+                            <name>clickMinimal</name>
+                            <title>Выбор - Минимальная</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663504226" stop="1517663504240" status="canceled">
+                    <name>И нажатие на Оформить</name>
+                    <title>И нажатие на Оформить</title>
+                </step>
+                <step start="1517663504241" stop="1517663504241" status="canceled">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                </step>
+                <step start="1517663504241" stop="1517663504241" status="canceled">
+                    <name>Тогда значения полей равны:</name>
+                    <title>Тогда значения полей равны:</title>
+                </step>
+                <step start="1517663504241" stop="1517663504242" status="canceled">
+                    <name>Когда нажатие на Продолжить</name>
+                    <title>Когда нажатие на Продолжить</title>
+                </step>
+                <step start="1517663504242" stop="1517663504242" status="canceled">
+                    <name>Тогда наличие ошибки отсутсвия обязательных полей</name>
+                    <title>Тогда наличие ошибки отсутсвия обязательных полей</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Страхование путешественников"/>
+                <label name="feature" value="Страхование"/>
+                <label name="host" value="MacBook-Pro-service.local"/>
+                <label name="thread" value="34200@MacBook-Pro-service.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Страхование"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

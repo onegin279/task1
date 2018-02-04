@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517769908724" stop="1517769959375" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Страхование</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1517769909129" stop="1517769959343" status="passed">
+            <name>Страхование путешественников</name>
+            <title>Страхование путешественников</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1517769935570" stop="1517769937731" status="passed">
+                    <name>Когда выбран пункт меню "Застраховать"</name>
+                    <title>Когда выбран пункт меню "Застраховать"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769936749" stop="1517769937729" status="passed">
+                            <name>selectMainMenu[Застраховать]</name>
+                            <title>Выбран пункт меню - Застраховать себя и имущество</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769937732" stop="1517769946047" status="passed">
+                    <name>Тогда выбран пункт меню Страхование путешественников</name>
+                    <title>Тогда выбран пункт меню Страхование путешественников</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769937733" stop="1517769946046" status="passed">
+                            <name>selectSubMenu</name>
+                            <title>Выбран пункт меню - Страхование путешественников</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769946048" stop="1517769947151" status="passed">
+                    <name>Когда выполнено нажатие на картинку Оформить</name>
+                    <title>Когда выполнено нажатие на картинку Оформить</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769946053" stop="1517769947151" status="passed">
+                            <name>stepExecuteButton</name>
+                            <title>Выполнено нажатие на кнопку Оформить</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769947151" stop="1517769947399" status="passed">
+                    <name>Когда выполнен переход на новую вкладку</name>
+                    <title>Когда выполнен переход на новую вкладку</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769947152" stop="1517769947392" status="passed">
+                            <name>chVkladka</name>
+                            <title>Переход на следующую вкладку</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769947399" stop="1517769951949" status="passed">
+                    <name>Когда нажатие на Минимальная</name>
+                    <title>Когда нажатие на Минимальная</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769947419" stop="1517769951949" status="passed">
+                            <name>clickMinimal</name>
+                            <title>Выбор - Минимальная</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769951949" stop="1517769952469" status="passed">
+                    <name>И нажатие на Оформить</name>
+                    <title>И нажатие на Оформить</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769951951" stop="1517769952469" status="passed">
+                            <name>clickOformit</name>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769952469" stop="1517769957491" status="passed">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769952609" stop="1517769953385" status="passed">
+                            <name>stepFillField[Фамилия, IVANOV]</name>
+                            <title>Поле Фамилия заполняется значением IVANOV</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769953386" stop="1517769953617" status="passed">
+                            <name>stepFillField[Имя, IVAN]</name>
+                            <title>Поле Имя заполняется значением IVAN</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769953618" stop="1517769954294" status="passed">
+                            <name>stepFillField[Дата рождения, 15.06.1987]</name>
+                            <title>Поле Дата рождения заполняется значением 15.06.1987</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769954295" stop="1517769954903" status="passed">
+                            <name>stepFillField[Фамилия рус, Иванов]</name>
+                            <title>Поле Фамилия рус заполняется значением Иванов</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769954904" stop="1517769955125" status="passed">
+                            <name>stepFillField[Имя рус, Иван]</name>
+                            <title>Поле Имя рус заполняется значением Иван</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769955126" stop="1517769955421" status="passed">
+                            <name>stepFillField[Отчество рус, Иваныч]</name>
+                            <title>Поле Отчество рус заполняется значением Иваныч</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769955422" stop="1517769955821" status="passed">
+                            <name>stepFillField[Дата рождения рус, 15.06.1987]</name>
+                            <title>Поле Дата рождения рус заполняется значением 15.06.1987</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769955822" stop="1517769956090" status="passed">
+                            <name>stepFillField[Пол, 0]</name>
+                            <title>Поле Пол заполняется значением 0</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769956092" stop="1517769956397" status="passed">
+                            <name>stepFillField[Серия паспорта, 1234]</name>
+                            <title>Поле Серия паспорта заполняется значением 1234</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769956397" stop="1517769956652" status="passed">
+                            <name>stepFillField[Номер паспорта, 123456]</name>
+                            <title>Поле Номер паспорта заполняется значением 123456</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769956653" stop="1517769957033" status="passed">
+                            <name>stepFillField[Дата выдачи, 12.02.2010]</name>
+                            <title>Поле Дата выдачи заполняется значением 12.02.2010</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769957034" stop="1517769957490" status="passed">
+                            <name>stepFillField[Кем выдан, Вупи Голдберг]</name>
+                            <title>Поле Кем выдан заполняется значением Вупи Голдберг</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769957491" stop="1517769958307" status="passed">
+                    <name>Тогда значения полей равны:</name>
+                    <title>Тогда значения полей равны:</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769957493" stop="1517769957568" status="passed">
+                            <name>stepCheckFillField[Фамилия, IVANOV]</name>
+                            <title>поле Фамилия заполнено значением IVANOV</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769957569" stop="1517769957618" status="passed">
+                            <name>stepCheckFillField[Имя, IVAN]</name>
+                            <title>поле Имя заполнено значением IVAN</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769957618" stop="1517769957672" status="passed">
+                            <name>stepCheckFillField[Дата рождения, 15.06.1987]</name>
+                            <title>поле Дата рождения заполнено значением 15.06.1987</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769957672" stop="1517769957726" status="passed">
+                            <name>stepCheckFillField[Фамилия рус, Иванов]</name>
+                            <title>поле Фамилия рус заполнено значением Иванов</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769957731" stop="1517769957791" status="passed">
+                            <name>stepCheckFillField[Имя рус, Иван]</name>
+                            <title>поле Имя рус заполнено значением Иван</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769957792" stop="1517769957854" status="passed">
+                            <name>stepCheckFillField[Отчество рус, Иваныч]</name>
+                            <title>поле Отчество рус заполнено значением Иваныч</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769957855" stop="1517769957950" status="passed">
+                            <name>stepCheckFillField[Дата рождения рус, 15.06.1987]</name>
+                            <title>поле Дата рождения рус заполнено значением 15.06.1987</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769957950" stop="1517769958001" status="passed">
+                            <name>stepCheckFillField[Пол, 0]</name>
+                            <title>поле Пол заполнено значением 0</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769958002" stop="1517769958076" status="passed">
+                            <name>stepCheckFillField[Серия паспорта, 1234]</name>
+                            <title>поле Серия паспорта заполнено значением 1234</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769958077" stop="1517769958138" status="passed">
+                            <name>stepCheckFillField[Номер паспорта, 123456]</name>
+                            <title>поле Номер паспорта заполнено значением 123456</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769958139" stop="1517769958223" status="passed">
+                            <name>stepCheckFillField[Дата выдачи, 12.02.2010]</name>
+                            <title>поле Дата выдачи заполнено значением 12.02.2010</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517769958224" stop="1517769958305" status="passed">
+                            <name>stepCheckFillField[Кем выдан, Вупи Голдберг]</name>
+                            <title>поле Кем выдан заполнено значением Вупи Голдберг</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769958308" stop="1517769958516" status="passed">
+                    <name>Когда нажатие на Продолжить</name>
+                    <title>Когда нажатие на Продолжить</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769958311" stop="1517769958516" status="passed">
+                            <name>clickProdol</name>
+                            <title>Клик по продолжить</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517769958517" stop="1517769958627" status="passed">
+                    <name>Тогда наличие ошибки отсутсвия обязательных полей</name>
+                    <title>Тогда наличие ошибки отсутсвия обязательных полей</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517769958526" stop="1517769958626" status="passed">
+                            <name>checkErrorMessage</name>
+                            <title>в поле {0} присутствует сообщение об ошибке {1}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Страхование путешественников"/>
+                <label name="feature" value="Страхование"/>
+                <label name="host" value="MacBook-Pro-service.local"/>
+                <label name="thread" value="36160@MacBook-Pro-service.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Страхование"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

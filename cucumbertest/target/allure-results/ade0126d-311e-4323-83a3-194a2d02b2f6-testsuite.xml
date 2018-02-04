@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517663202875" stop="1517663243260" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Страхование</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1517663203189" stop="1517663243254" status="failed">
+            <name>Страхование путешественников</name>
+            <title>Страхование путешественников</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: Поле 'Имя застрахованного' не объявлено на странице</message>
+                <stack-trace>java.lang.AssertionError: Поле 'Имя застрахованного' не объявлено на странице
+	at pages.SendAppPage.fillField(SendAppPage.java:120)
+	at steps.SendAppSteps.stepFillField(SendAppSteps.java:43)
+	at steps.ScenarioSteps.lambda$fillField$0(ScenarioSteps.java:59)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at java.util.Collections$UnmodifiableMap.forEach(Collections.java:1505)
+	at steps.ScenarioSteps.fillField(ScenarioSteps.java:59)
+	at ✽.Когда заполняются поля:(Страхование.feature:17)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1517663227422" stop="1517663229942" status="passed">
+                    <name>Когда выбран пункт меню "Застраховать"</name>
+                    <title>Когда выбран пункт меню "Застраховать"</title>
+                    <steps>
+                        <step start="1517663228816" stop="1517663229939" status="passed">
+                            <name>selectMainMenu[Застраховать]</name>
+                            <title>Выбран пункт меню - Застраховать себя и имущество</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663229942" stop="1517663235715" status="passed">
+                    <name>Тогда выбран пункт меню Страхование путешественников</name>
+                    <title>Тогда выбран пункт меню Страхование путешественников</title>
+                    <steps>
+                        <step start="1517663229943" stop="1517663235715" status="passed">
+                            <name>selectSubMenu</name>
+                            <title>Выбран пункт меню - Страхование путешественников</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663235716" stop="1517663237321" status="passed">
+                    <name>Когда выполнено нажатие на картинку Оформить</name>
+                    <title>Когда выполнено нажатие на картинку Оформить</title>
+                    <steps>
+                        <step start="1517663235717" stop="1517663237321" status="passed">
+                            <name>stepExecuteButton</name>
+                            <title>Выполнено нажатие на кнопку Оформить</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663237322" stop="1517663237376" status="passed">
+                    <name>Когда выполнен переход на новую вкладку</name>
+                    <title>Когда выполнен переход на новую вкладку</title>
+                    <steps>
+                        <step start="1517663237323" stop="1517663237375" status="passed">
+                            <name>chVkladka</name>
+                            <title>Переход на следующую вкладку</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663237376" stop="1517663240517" status="passed">
+                    <name>Когда нажатие на Минимальная</name>
+                    <title>Когда нажатие на Минимальная</title>
+                    <steps>
+                        <step start="1517663237378" stop="1517663240517" status="passed">
+                            <name>clickMinimal</name>
+                            <title>Выбор - Минимальная</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663240518" stop="1517663241041" status="passed">
+                    <name>И нажатие на Оформить</name>
+                    <title>И нажатие на Оформить</title>
+                    <steps>
+                        <step start="1517663240519" stop="1517663241041" status="passed">
+                            <name>clickOformit</name>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663241042" stop="1517663242651" status="failed">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                    <attachments>
+                        <attachment title="Скриншот в момент ошибки" source="883bc3e3-7e8d-4681-adb2-cf0a0d456bd7-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1517663241159" stop="1517663241883" status="passed">
+                            <name>stepFillField[Фамилия, IVANOV]</name>
+                            <title>Поле Фамилия заполняется значением IVANOV</title>
+                        </step>
+                        <step start="1517663241884" stop="1517663241931" status="failed">
+                            <name>stepFillField[Имя застрахованного, IVAN]</name>
+                            <title>Поле Имя застрахованного заполняется значением IVAN</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517663242652" stop="1517663242655" status="canceled">
+                    <name>Тогда значения полей равны:</name>
+                    <title>Тогда значения полей равны:</title>
+                </step>
+                <step start="1517663242656" stop="1517663242656" status="canceled">
+                    <name>Когда нажатие на Продолжить</name>
+                    <title>Когда нажатие на Продолжить</title>
+                </step>
+                <step start="1517663242656" stop="1517663242657" status="canceled">
+                    <name>Тогда наличие ошибки отсутсвия обязательных полей</name>
+                    <title>Тогда наличие ошибки отсутсвия обязательных полей</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Страхование путешественников"/>
+                <label name="feature" value="Страхование"/>
+                <label name="host" value="MacBook-Pro-service.local"/>
+                <label name="thread" value="34179@MacBook-Pro-service.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Страхование"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

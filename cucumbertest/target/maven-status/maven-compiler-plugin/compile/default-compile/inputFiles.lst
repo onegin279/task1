@@ -1,0 +1,11 @@
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/pages/MainPage.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/pages/SendAppPage.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/pages/BasePage.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/pages/SecondPage.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/steps/BaseSteps.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/steps/SendAppSteps.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/steps/SecondPageSteps.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/steps/MainPageSteps.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/steps/ScenarioSteps.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/util/TestProperties.java
+/Users/service/Desktop/Git/task1/cucumbertest/src/main/java/util/AllureReporter.java
