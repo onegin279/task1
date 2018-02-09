@@ -1,0 +1,174 @@
+{
+  "hosts" : [ {
+    "title" : "MacBook-Pro-service.local",
+    "threads" : [ {
+      "title" : "41682@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "11679dccbdb99455",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518209393319,
+          "stop" : 1518209478050,
+          "duration" : 84731
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "41439@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "9fc3b192e005df73",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518206514577,
+          "stop" : 1518206743956,
+          "duration" : 229379
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      } ]
+    }, {
+      "title" : "41519@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "1c9678967ca943f0",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518206965994,
+          "stop" : 1518207076952,
+          "duration" : 110958
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "41829@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "8aa70a962e82de7e",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518210139951,
+          "stop" : 1518210185613,
+          "duration" : 45662
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "41704@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "673190e996a74850",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518209552246,
+          "stop" : 1518209609977,
+          "duration" : 57731
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "42031@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "591486f84dc99c8f",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518211134093,
+          "stop" : 1518211195395,
+          "duration" : 61302
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "41810@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "b962faaaeb91c832",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518210022631,
+          "stop" : 1518210077773,
+          "duration" : 55142
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "41634@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "adacf8b5d99904f2",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518209055475,
+          "stop" : 1518209120020,
+          "duration" : 64545
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "42113@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "3f8f78dad0ee26ce",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518211854191,
+          "stop" : 1518211907203,
+          "duration" : 53012
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "42201@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "d61590693f0d88af",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518212447881,
+          "stop" : 1518212483112,
+          "duration" : 35231
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    }, {
+      "title" : "41563@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "2052a9bb1a015618",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518207719184,
+          "stop" : 1518207792997,
+          "duration" : 73813
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "title" : "41985@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "ff71527e13503423",
+        "name" : "Телевизоры",
+        "title" : "Телевизоры",
+        "time" : {
+          "start" : 1518210503328,
+          "stop" : 1518210561209,
+          "duration" : 57881
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

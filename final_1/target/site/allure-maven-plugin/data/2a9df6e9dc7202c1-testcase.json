@@ -1,0 +1,140 @@
+{
+  "uid" : "2a9df6e9dc7202c1",
+  "name" : "Телевизоры",
+  "title" : "Телевизоры",
+  "time" : {
+    "start" : 1517941969676,
+    "stop" : 1517942015595,
+    "duration" : 45919
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : {
+    "message" : "TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (4429c4f77bf6605a9a043ab7a48369ee)] -> xpath: //*/li[1]/div/div/a[3]] (tried for 10 second(s) with 1000 MILLISECONDS interval)\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: 4429c4f77bf6605a9a043ab7a48369ee",
+    "stackTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (4429c4f77bf6605a9a043ab7a48369ee)] -> xpath: //*/li[1]/div/div/a[3]] (tried for 10 second(s) with 1000 MILLISECONDS interval)\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: 4429c4f77bf6605a9a043ab7a48369ee\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat pages.MainPage.selectSubMenu(MainPage.java:39)\n\tat steps.MainPageSteps.selectSubMenu(MainPageSteps.java:17)\n\tat steps.ScenerioSteps.selectSubMenuItem(ScenerioSteps.java:21)\n\tat ✽.Тогда выбран пункт меню Телевизоры(Телевизоры.feature:8)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "462570450b1835c7",
+    "name" : "Яндекс Маркет",
+    "title" : "Яндекс Маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Электроника\"",
+    "title" : "Когда выбран пункт меню \"Электроника\"",
+    "time" : {
+      "start" : 1517941997945,
+      "stop" : 1517942003493,
+      "duration" : 5548
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMainMenu[Электроника]",
+      "title" : "Выбран пункт меню - Электроника",
+      "time" : {
+        "start" : 1517941998761,
+        "stop" : 1517942003491,
+        "duration" : 4730
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран пункт меню Телевизоры",
+    "title" : "Тогда выбран пункт меню Телевизоры",
+    "time" : {
+      "start" : 1517942003493,
+      "stop" : 1517942014994,
+      "duration" : 11501
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "BROKEN",
+    "attachments" : [ {
+      "title" : "Скриншот в момент ошибки",
+      "source" : "96ffc10a-f887-4cf8-8850-17a516cbc910-attachment.png",
+      "type" : "image/png",
+      "size" : 378973,
+      "uid" : "f1d47ed2115290d"
+    } ],
+    "steps" : [ {
+      "name" : "selectSubMenu",
+      "title" : "Выбран пункт меню - Телевизоры",
+      "time" : {
+        "start" : 1517942003494,
+        "stop" : 1517942014023,
+        "duration" : 10529
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "BROKEN",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран пункт Перейти ко всем фильтрам",
+    "title" : "Когда выбран пункт Перейти ко всем фильтрам",
+    "time" : {
+      "start" : 1517942014994,
+      "stop" : 1517942014999,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Телевизоры"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "38209@MacBook-Pro-service.local.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-service.local"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,290 @@
+{
+  "uid" : "2ce410a983d06aba",
+  "name" : "Телевизоры",
+  "title" : "Телевизоры",
+  "time" : {
+    "start" : 1518207719184,
+    "stop" : 1518207792997,
+    "duration" : 73813
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 15
+  },
+  "failure" : {
+    "message" : "AssertionError: Количество элементов не равно - 12",
+    "stackTrace" : "java.lang.AssertionError: Количество элементов не равно - 12\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat pages.ResPage.checkElementsCount(ResPage.java:33)\n\tat steps.ResPageSteps.checkElementsCount(ResPageSteps.java:12)\n\tat steps.ScenerioSteps.checkElementsCount(ScenerioSteps.java:67)\n\tat ✽.Тогда отобразились 12 позиций(Наушники.feature:16)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "2e030972b7cd5786",
+    "name" : "Яндекс Маркет",
+    "title" : "Яндекс Маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Электроника\"",
+    "title" : "Когда выбран пункт меню \"Электроника\"",
+    "time" : {
+      "start" : 1518207751236,
+      "stop" : 1518207756077,
+      "duration" : 4841
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMainMenu[Электроника]",
+      "title" : "Выбран пункт меню - Электроника",
+      "time" : {
+        "start" : 1518207751971,
+        "stop" : 1518207756075,
+        "duration" : 4104
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран пункт меню Наушники",
+    "title" : "Тогда выбран пункт меню Наушники",
+    "time" : {
+      "start" : 1518207756077,
+      "stop" : 1518207761127,
+      "duration" : 5050
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectSubMenu",
+      "title" : "Выбран пункт меню - Наушники",
+      "time" : {
+        "start" : 1518207756078,
+        "stop" : 1518207761126,
+        "duration" : 5048
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран пункт Перейти ко всем фильтрам",
+    "title" : "Когда выбран пункт Перейти ко всем фильтрам",
+    "time" : {
+      "start" : 1518207761127,
+      "stop" : 1518207764541,
+      "duration" : 3414
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectAllFilters",
+      "title" : "Выбран пункт - Перейти ко всем фильтрам",
+      "time" : {
+        "start" : 1518207761129,
+        "stop" : 1518207764540,
+        "duration" : 3411
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1518207764541,
+      "stop" : 1518207765282,
+      "duration" : 741
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Цена, 5000]",
+      "title" : "Поле Цена заполняется значением 5000",
+      "time" : {
+        "start" : 1518207764677,
+        "stop" : 1518207765281,
+        "duration" : 604
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран Beats",
+    "title" : "Когда выбран Beats",
+    "time" : {
+      "start" : 1518207765282,
+      "stop" : 1518207765619,
+      "duration" : 337
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepbeats",
+      "title" : "Выбрать Beats",
+      "time" : {
+        "start" : 1518207765283,
+        "stop" : 1518207765619,
+        "duration" : 336
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажать Показать подходящие",
+    "title" : "Когда нажать Показать подходящие",
+    "time" : {
+      "start" : 1518207765620,
+      "stop" : 1518207769853,
+      "duration" : 4233
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "showRes",
+      "title" : "Нажать Показать подходящие",
+      "time" : {
+        "start" : 1518207765625,
+        "stop" : 1518207769853,
+        "duration" : 4228
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда отобразились 12 позиций",
+    "title" : "Тогда отобразились 12 позиций",
+    "time" : {
+      "start" : 1518207769853,
+      "stop" : 1518207792467,
+      "duration" : 22614
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Скриншот в момент ошибки",
+      "source" : "597e8dc3-45a6-4552-bd9c-cad21ba5ef69-attachment.png",
+      "type" : "image/png",
+      "size" : 192892,
+      "uid" : "707477c3feccdd48"
+    } ],
+    "steps" : [ {
+      "name" : "checkElementsCount[12]",
+      "title" : "Проверка соответствия количества элементов на странице",
+      "time" : {
+        "start" : 1518207769855,
+        "stop" : 1518207790040,
+        "duration" : 20185
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "FAILED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда проверить поиск по первому значению",
+    "title" : "Когда проверить поиск по первому значению",
+    "time" : {
+      "start" : 1518207792467,
+      "stop" : 1518207792472,
+      "duration" : 5
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "41563@MacBook-Pro-service.local.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Телевизоры"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-service.local"
+  } ],
+  "parameters" : [ ]
+}

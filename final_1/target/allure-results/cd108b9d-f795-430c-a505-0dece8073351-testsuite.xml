@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517945999584" stop="1517946032547" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс Маркет</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1517945999970" stop="1517946032542" status="broken">
+            <name>Телевизоры</name>
+            <title>Телевизоры</title>
+            <description type="text"></description>
+            <failure>
+                <message>WebDriverException: unknown error: Element &lt;span class="button__text"&gt;...&lt;/span&gt; is not clickable at point (604, 740). Other element would receive the click: &lt;a role="button" type="button" class="button button_size_l button_theme_pseudo i-bem button_action_show-filtered n-filter-panel-extend__controll-button_size_big button_js_inited" data-bem="{&amp;quot;button&amp;quot;:{&amp;quot;baseUrl&amp;quot;:&amp;quot;/catalog/59601/list?deliveryincluded=0&amp;amp;amp;local-offers-first=0&amp;amp;amp;onstock=1&amp;amp;amp;hid=90639&amp;quot;}}" href="/catalog/59601/list?hid=90639&amp;amp;glfilter=7893318%3A153061%2C153074&amp;amp;local-offers-first=0&amp;amp;deliveryincluded=0&amp;amp;onstock=1&amp;amp;pricefrom=20000"&gt;...&lt;/a&gt;
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: f6a0f0573124f0f16e3805deab96df00</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class="button__text"&gt;...&lt;/span&gt; is not clickable at point (604, 740). Other element would receive the click: &lt;a role="button" type="button" class="button button_size_l button_theme_pseudo i-bem button_action_show-filtered n-filter-panel-extend__controll-button_size_big button_js_inited" data-bem="{&amp;quot;button&amp;quot;:{&amp;quot;baseUrl&amp;quot;:&amp;quot;/catalog/59601/list?deliveryincluded=0&amp;amp;amp;local-offers-first=0&amp;amp;amp;onstock=1&amp;amp;amp;hid=90639&amp;quot;}}" href="/catalog/59601/list?hid=90639&amp;amp;glfilter=7893318%3A153061%2C153074&amp;amp;local-offers-first=0&amp;amp;deliveryincluded=0&amp;amp;onstock=1&amp;amp;pricefrom=20000"&gt;...&lt;/a&gt;
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: f6a0f0573124f0f16e3805deab96df00
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at steps.FiltersPageSteps.showRes(FiltersPageSteps.java:37)
+	at steps.ScenerioSteps.showRes(ScenerioSteps.java:65)
+	at ✽.Когда нажать Показать подходящие(Телевизоры.feature:16)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1517946014579" stop="1517946020528" status="passed">
+                    <name>Когда выбран пункт меню "Электроника"</name>
+                    <title>Когда выбран пункт меню "Электроника"</title>
+                    <steps>
+                        <step start="1517946015282" stop="1517946020521" status="passed">
+                            <name>selectMainMenu[Электроника]</name>
+                            <title>Выбран пункт меню - Электроника</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517946020528" stop="1517946025432" status="passed">
+                    <name>Тогда выбран пункт меню Телевизоры</name>
+                    <title>Тогда выбран пункт меню Телевизоры</title>
+                    <steps>
+                        <step start="1517946020567" stop="1517946025432" status="passed">
+                            <name>selectSubMenu</name>
+                            <title>Выбран пункт меню - Телевизоры</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517946025433" stop="1517946029378" status="passed">
+                    <name>Когда выбран пункт Перейти ко всем фильтрам</name>
+                    <title>Когда выбран пункт Перейти ко всем фильтрам</title>
+                    <steps>
+                        <step start="1517946025434" stop="1517946029377" status="passed">
+                            <name>selectAllFilters</name>
+                            <title>Выбран пункт - Перейти ко всем фильтрам</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517946029378" stop="1517946030053" status="passed">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                    <steps>
+                        <step start="1517946029500" stop="1517946030053" status="passed">
+                            <name>stepFillField[Цена, 20000]</name>
+                            <title>Поле Цена заполняется значением 20000</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517946030054" stop="1517946030366" status="passed">
+                    <name>Когда выбран Samsung</name>
+                    <title>Когда выбран Samsung</title>
+                    <steps>
+                        <step start="1517946030055" stop="1517946030366" status="passed">
+                            <name>stepSamsung</name>
+                            <title>Выбрать Samsung</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517946030367" stop="1517946030715" status="passed">
+                    <name>Тогда выбран Lg</name>
+                    <title>Тогда выбран Lg</title>
+                    <steps>
+                        <step start="1517946030368" stop="1517946030715" status="passed">
+                            <name>stepLg</name>
+                            <title>Выбрать Lg</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517946030716" stop="1517946031867" status="broken">
+                    <name>Когда нажать Показать подходящие</name>
+                    <title>Когда нажать Показать подходящие</title>
+                    <attachments>
+                        <attachment title="Скриншот в момент ошибки" source="8f757316-c872-4eb2-8412-8883096a6873-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1517946030717" stop="1517946031165" status="broken">
+                            <name>showRes</name>
+                            <title>Нажать Показать подходящие</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Телевизоры"/>
+                <label name="feature" value="Яндекс Маркет"/>
+                <label name="host" value="MacBook-Pro-service.local"/>
+                <label name="thread" value="38582@MacBook-Pro-service.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс Маркет"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

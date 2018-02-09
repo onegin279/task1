@@ -1,0 +1,275 @@
+{
+  "uid" : "3622afe196c6599",
+  "name" : "Телевизоры",
+  "title" : "Телевизоры",
+  "time" : {
+    "start" : 1517945999970,
+    "stop" : 1517946032542,
+    "duration" : 32572
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 14
+  },
+  "failure" : {
+    "message" : "WebDriverException: unknown error: Element <span class=\"button__text\">...</span> is not clickable at point (604, 740). Other element would receive the click: <a role=\"button\" type=\"button\" class=\"button button_size_l button_theme_pseudo i-bem button_action_show-filtered n-filter-panel-extend__controll-button_size_big button_js_inited\" data-bem=\"{&quot;button&quot;:{&quot;baseUrl&quot;:&quot;/catalog/59601/list?deliveryincluded=0&amp;amp;local-offers-first=0&amp;amp;onstock=1&amp;amp;hid=90639&quot;}}\" href=\"/catalog/59601/list?hid=90639&amp;glfilter=7893318%3A153061%2C153074&amp;local-offers-first=0&amp;deliveryincluded=0&amp;onstock=1&amp;pricefrom=20000\">...</a>\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: f6a0f0573124f0f16e3805deab96df00",
+    "stackTrace" : "org.openqa.selenium.WebDriverException: unknown error: Element <span class=\"button__text\">...</span> is not clickable at point (604, 740). Other element would receive the click: <a role=\"button\" type=\"button\" class=\"button button_size_l button_theme_pseudo i-bem button_action_show-filtered n-filter-panel-extend__controll-button_size_big button_js_inited\" data-bem=\"{&quot;button&quot;:{&quot;baseUrl&quot;:&quot;/catalog/59601/list?deliveryincluded=0&amp;amp;local-offers-first=0&amp;amp;onstock=1&amp;amp;hid=90639&quot;}}\" href=\"/catalog/59601/list?hid=90639&amp;glfilter=7893318%3A153061%2C153074&amp;local-offers-first=0&amp;deliveryincluded=0&amp;onstock=1&amp;pricefrom=20000\">...</a>\n  (Session info: chrome=64.0.3282.140)\n  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}\nSession ID: f6a0f0573124f0f16e3805deab96df00\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\n\tat steps.FiltersPageSteps.showRes(FiltersPageSteps.java:37)\n\tat steps.ScenerioSteps.showRes(ScenerioSteps.java:65)\n\tat ✽.Когда нажать Показать подходящие(Телевизоры.feature:16)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "8b3a7c68e6a671ed",
+    "name" : "Яндекс Маркет",
+    "title" : "Яндекс Маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Электроника\"",
+    "title" : "Когда выбран пункт меню \"Электроника\"",
+    "time" : {
+      "start" : 1517946014579,
+      "stop" : 1517946020528,
+      "duration" : 5949
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMainMenu[Электроника]",
+      "title" : "Выбран пункт меню - Электроника",
+      "time" : {
+        "start" : 1517946015282,
+        "stop" : 1517946020521,
+        "duration" : 5239
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран пункт меню Телевизоры",
+    "title" : "Тогда выбран пункт меню Телевизоры",
+    "time" : {
+      "start" : 1517946020528,
+      "stop" : 1517946025432,
+      "duration" : 4904
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectSubMenu",
+      "title" : "Выбран пункт меню - Телевизоры",
+      "time" : {
+        "start" : 1517946020567,
+        "stop" : 1517946025432,
+        "duration" : 4865
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран пункт Перейти ко всем фильтрам",
+    "title" : "Когда выбран пункт Перейти ко всем фильтрам",
+    "time" : {
+      "start" : 1517946025433,
+      "stop" : 1517946029378,
+      "duration" : 3945
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectAllFilters",
+      "title" : "Выбран пункт - Перейти ко всем фильтрам",
+      "time" : {
+        "start" : 1517946025434,
+        "stop" : 1517946029377,
+        "duration" : 3943
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1517946029378,
+      "stop" : 1517946030053,
+      "duration" : 675
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Цена, 20000]",
+      "title" : "Поле Цена заполняется значением 20000",
+      "time" : {
+        "start" : 1517946029500,
+        "stop" : 1517946030053,
+        "duration" : 553
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран Samsung",
+    "title" : "Когда выбран Samsung",
+    "time" : {
+      "start" : 1517946030054,
+      "stop" : 1517946030366,
+      "duration" : 312
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSamsung",
+      "title" : "Выбрать Samsung",
+      "time" : {
+        "start" : 1517946030055,
+        "stop" : 1517946030366,
+        "duration" : 311
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран Lg",
+    "title" : "Тогда выбран Lg",
+    "time" : {
+      "start" : 1517946030367,
+      "stop" : 1517946030715,
+      "duration" : 348
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepLg",
+      "title" : "Выбрать Lg",
+      "time" : {
+        "start" : 1517946030368,
+        "stop" : 1517946030715,
+        "duration" : 347
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажать Показать подходящие",
+    "title" : "Когда нажать Показать подходящие",
+    "time" : {
+      "start" : 1517946030716,
+      "stop" : 1517946031867,
+      "duration" : 1151
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "BROKEN",
+    "attachments" : [ {
+      "title" : "Скриншот в момент ошибки",
+      "source" : "8f757316-c872-4eb2-8412-8883096a6873-attachment.png",
+      "type" : "image/png",
+      "size" : 94488,
+      "uid" : "534ff34b0c95984d"
+    } ],
+    "steps" : [ {
+      "name" : "showRes",
+      "title" : "Нажать Показать подходящие",
+      "time" : {
+        "start" : 1517946030717,
+        "stop" : 1517946031165,
+        "duration" : 448
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "BROKEN",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Телевизоры"
+  }, {
+    "name" : "thread",
+    "value" : "38582@MacBook-Pro-service.local.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-service.local"
+  } ],
+  "parameters" : [ ]
+}

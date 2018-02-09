@@ -1,0 +1,266 @@
+{
+  "uid" : "1b676bcdc8e656d8",
+  "name" : "Телевизоры",
+  "title" : "Телевизоры",
+  "time" : {
+    "start" : 1517946270958,
+    "stop" : 1517946304421,
+    "duration" : 33463
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 14
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "42e077b1aacf6724",
+    "name" : "Яндекс Маркет",
+    "title" : "Яндекс Маркет"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Электроника\"",
+    "title" : "Когда выбран пункт меню \"Электроника\"",
+    "time" : {
+      "start" : 1517946284685,
+      "stop" : 1517946290100,
+      "duration" : 5415
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMainMenu[Электроника]",
+      "title" : "Выбран пункт меню - Электроника",
+      "time" : {
+        "start" : 1517946285870,
+        "stop" : 1517946290098,
+        "duration" : 4228
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран пункт меню Телевизоры",
+    "title" : "Тогда выбран пункт меню Телевизоры",
+    "time" : {
+      "start" : 1517946290101,
+      "stop" : 1517946295457,
+      "duration" : 5356
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectSubMenu",
+      "title" : "Выбран пункт меню - Телевизоры",
+      "time" : {
+        "start" : 1517946290102,
+        "stop" : 1517946295457,
+        "duration" : 5355
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран пункт Перейти ко всем фильтрам",
+    "title" : "Когда выбран пункт Перейти ко всем фильтрам",
+    "time" : {
+      "start" : 1517946295458,
+      "stop" : 1517946298425,
+      "duration" : 2967
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectAllFilters",
+      "title" : "Выбран пункт - Перейти ко всем фильтрам",
+      "time" : {
+        "start" : 1517946295459,
+        "stop" : 1517946298425,
+        "duration" : 2966
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1517946298426,
+      "stop" : 1517946299071,
+      "duration" : 645
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepFillField[Цена, 20000]",
+      "title" : "Поле Цена заполняется значением 20000",
+      "time" : {
+        "start" : 1517946298585,
+        "stop" : 1517946299070,
+        "duration" : 485
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выбран Samsung",
+    "title" : "Когда выбран Samsung",
+    "time" : {
+      "start" : 1517946299071,
+      "stop" : 1517946299394,
+      "duration" : 323
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepSamsung",
+      "title" : "Выбрать Samsung",
+      "time" : {
+        "start" : 1517946299073,
+        "stop" : 1517946299393,
+        "duration" : 320
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран Lg",
+    "title" : "Тогда выбран Lg",
+    "time" : {
+      "start" : 1517946299394,
+      "stop" : 1517946299747,
+      "duration" : 353
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepLg",
+      "title" : "Выбрать Lg",
+      "time" : {
+        "start" : 1517946299395,
+        "stop" : 1517946299747,
+        "duration" : 352
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажать Показать подходящие",
+    "title" : "Когда нажать Показать подходящие",
+    "time" : {
+      "start" : 1517946299747,
+      "stop" : 1517946304088,
+      "duration" : 4341
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "showRes",
+      "title" : "Нажать Показать подходящие",
+      "time" : {
+        "start" : 1517946299749,
+        "stop" : 1517946304085,
+        "duration" : 4336
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Телевизоры"
+  }, {
+    "name" : "suite-name",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "feature",
+    "value" : "Яндекс Маркет"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "38610@MacBook-Pro-service.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-service.local"
+  } ],
+  "parameters" : [ ]
+}

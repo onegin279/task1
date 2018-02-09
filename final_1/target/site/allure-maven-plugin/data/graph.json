@@ -1,0 +1,553 @@
+{
+  "testCases" : [ {
+    "uid" : "cf9070be07ca609f",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518120358061,
+      "stop" : 1518120386970,
+      "duration" : 28909
+    },
+    "severity" : "NORMAL",
+    "status" : "PENDING"
+  }, {
+    "uid" : "eb1d28ee1e137b23",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518033178136,
+      "stop" : 1518033229103,
+      "duration" : 50967
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "c7719dff01e75c3d",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517863980593,
+      "stop" : 1517864010814,
+      "duration" : 30221
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "1dfdca48fa56eeb6",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517865220020,
+      "stop" : 1517865255322,
+      "duration" : 35302
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6b26c7875c7c6d82",
+    "name" : "Страхование путешественников",
+    "title" : "Страхование путешественников",
+    "time" : {
+      "start" : 1517863073445,
+      "stop" : 1517863111748,
+      "duration" : 38303
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "1e9fe6cf8ca4dbca",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518114548271,
+      "stop" : 1518114627158,
+      "duration" : 78887
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "a5c9efb70667acfd",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517942227209,
+      "stop" : 1517942259116,
+      "duration" : 31907
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "529555f74aed84c6",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517864820396,
+      "stop" : 1517864848114,
+      "duration" : 27718
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "6c306f8774d8ecd1",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517863674149,
+      "stop" : 1517863696962,
+      "duration" : 22813
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "e90adacba152b043",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518121889089,
+      "stop" : 1518121937265,
+      "duration" : 48176
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "6e12a858fed5b9a8",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518203139759,
+      "stop" : 1518203208121,
+      "duration" : 68362
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "c9926456f8a5e2a6",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518115573704,
+      "stop" : 1518115623271,
+      "duration" : 49567
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "1e9fa81fd5fe53f6",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518116897831,
+      "stop" : 1518116942212,
+      "duration" : 44381
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "ded040271f68b0f8",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517946270958,
+      "stop" : 1517946304421,
+      "duration" : 33463
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "20d84f18bdc1bcdc",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518117968160,
+      "stop" : 1518118006895,
+      "duration" : 38735
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "90b5ee9398bfb03",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518030225984,
+      "stop" : 1518030296979,
+      "duration" : 70995
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "2cc5bda9a84e0320",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518123104126,
+      "stop" : 1518123157937,
+      "duration" : 53811
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "7b5a2391021ebb61",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518204359371,
+      "stop" : 1518204402881,
+      "duration" : 43510
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "6d57d1efec54f119",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517864985964,
+      "stop" : 1517865010876,
+      "duration" : 24912
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "ec8c3850bb170b85",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518203738565,
+      "stop" : 1518203774695,
+      "duration" : 36130
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "a39b49065d3bfaec",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518121082773,
+      "stop" : 1518121121156,
+      "duration" : 38383
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "a66f023f601f4633",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518035151071,
+      "stop" : 1518035208256,
+      "duration" : 57185
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "3fa69c5834b13e75",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518122727000,
+      "stop" : 1518122795750,
+      "duration" : 68750
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "fc645428662175d3",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518204608694,
+      "stop" : 1518204659665,
+      "duration" : 50971
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "99b7c8156971556a",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517863305348,
+      "stop" : 1517863327157,
+      "duration" : 21809
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "d8b4f7bf36312061",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518030068291,
+      "stop" : 1518030112194,
+      "duration" : 43903
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "f8b9bd3ae90e62c7",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518205292433,
+      "stop" : 1518205349472,
+      "duration" : 57039
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "be5d71d5212139b1",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517864617605,
+      "stop" : 1517864638935,
+      "duration" : 21330
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "5218e95ceedee138",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518030828599,
+      "stop" : 1518030887185,
+      "duration" : 58586
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "c4a1e4016595981b",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517944137159,
+      "stop" : 1517944167605,
+      "duration" : 30446
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "87f366c832746120",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517864240074,
+      "stop" : 1517864264771,
+      "duration" : 24697
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "67f3327879c724b7",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518114236443,
+      "stop" : 1518114333149,
+      "duration" : 96706
+    },
+    "severity" : "NORMAL",
+    "status" : "PENDING"
+  }, {
+    "uid" : "fd5d5bbfdeaa70ae",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518115767746,
+      "stop" : 1518115817332,
+      "duration" : 49586
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "8610eb50e80cd878",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518033899254,
+      "stop" : 1518033935251,
+      "duration" : 35997
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "5174813e6d836339",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518203596604,
+      "stop" : 1518203633568,
+      "duration" : 36964
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "4cb974f5d9879469",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517864180353,
+      "stop" : 1517864214367,
+      "duration" : 34014
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "5c50b32dcb938699",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518120437881,
+      "stop" : 1518120493746,
+      "duration" : 55865
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "2fba009dbe348c1f",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517945999970,
+      "stop" : 1517946032542,
+      "duration" : 32572
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "c9cda20ac37ade35",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517864329767,
+      "stop" : 1517864346341,
+      "duration" : 16574
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "6c8bf8b181eea0aa",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518123390393,
+      "stop" : 1518123428146,
+      "duration" : 37753
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "967cb89c7b5215a8",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518027780285,
+      "stop" : 1518027855309,
+      "duration" : 75024
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "a8dcf64651811ca",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518029112213,
+      "stop" : 1518029153155,
+      "duration" : 40942
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "5d909688d258c3ce",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518204766917,
+      "stop" : 1518204806714,
+      "duration" : 39797
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "a30419083c188aff",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517942456880,
+      "stop" : 1517942493633,
+      "duration" : 36753
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "39f1005221c30254",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518029633425,
+      "stop" : 1518029684741,
+      "duration" : 51316
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "1a59598431132839",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518026776347,
+      "stop" : 1518026857311,
+      "duration" : 80964
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a51ded2128e4eb87",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1517941969676,
+      "stop" : 1517942015595,
+      "duration" : 45919
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "20809b7aa7e97c98",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518115256426,
+      "stop" : 1518115316873,
+      "duration" : 60447
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "b302add9af452d95",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518204270633,
+      "stop" : 1518204314141,
+      "duration" : 43508
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "139fa3fe4813071c",
+    "name" : "Телевизоры",
+    "title" : "Телевизоры",
+    "time" : {
+      "start" : 1518028225458,
+      "stop" : 1518028293244,
+      "duration" : 67786
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  } ]
+}

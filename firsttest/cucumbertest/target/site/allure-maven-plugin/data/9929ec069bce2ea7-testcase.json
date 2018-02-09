@@ -1,0 +1,56 @@
+{
+  "uid" : "9929ec069bce2ea7",
+  "name" : "Страхование путешественников",
+  "title" : "Страхование путешественников",
+  "time" : {
+    "start" : 1517860441691,
+    "stop" : 0,
+    "duration" : -1517860441691
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "88f9f708f734f47d",
+    "name" : "Страхование",
+    "title" : "Страхование"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Страхование"
+  }, {
+    "name" : "suite-name",
+    "value" : "Страхование"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Страхование путешественников"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "37299@MacBook-Pro-service.local.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-service.local"
+  } ],
+  "parameters" : [ ]
+}

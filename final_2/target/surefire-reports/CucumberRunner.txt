@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 40.298 sec <<< FAILURE! - in CucumberRunner
+Когда проверить поиск по первому значению(Сценарий: Телевизоры)  Time elapsed: 0.041 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Сценарий: Телевизоры  Time elapsed: 0.041 sec  <<< ERROR!
+java.lang.NullPointerException
+

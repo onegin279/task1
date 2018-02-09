@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="53.822" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberRunner" time="57.522" tests="3" errors="3" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.2.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -7,7 +7,7 @@
     <property name="java.vm.version" value="25.151-b12"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/service/Desktop/Git/task1/cucumbertest"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/service/Desktop/Git/task1/firsttest/cucumbertest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/service/Desktop/Git/task1/cucumbertest"/>
+    <property name="user.dir" value="/Users/service/Desktop/Git/task1/firsttest/cucumbertest"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -62,15 +62,32 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Когда выбран пункт меню &quot;Застраховать&quot;" classname="Сценарий: Страхование путешественников" time="0.038"/>
-  <testcase name="Тогда выбран пункт меню Страхование путешественников" classname="Сценарий: Страхование путешественников" time="0"/>
-  <testcase name="Когда выполнено нажатие на картинку Оформить" classname="Сценарий: Страхование путешественников" time="0"/>
-  <testcase name="Когда выполнен переход на новую вкладку" classname="Сценарий: Страхование путешественников" time="0"/>
-  <testcase name="Когда нажатие на Минимальная" classname="Сценарий: Страхование путешественников" time="0.001"/>
-  <testcase name="И нажатие на Оформить" classname="Сценарий: Страхование путешественников" time="0"/>
-  <testcase name="Когда заполняются поля:" classname="Сценарий: Страхование путешественников" time="0"/>
-  <testcase name="Тогда значения полей равны:" classname="Сценарий: Страхование путешественников" time="0.002"/>
-  <testcase name="Когда нажатие на Продолжить" classname="Сценарий: Страхование путешественников" time="0"/>
-  <testcase name="Тогда наличие ошибки отсутсвия обязательных полей" classname="Сценарий: Страхование путешественников" time="0.001"/>
-  <testcase name="Сценарий: Страхование путешественников" classname="Сценарий: Страхование путешественников" time="0.74"/>
+  <testcase name="Когда выбран пункт меню &quot;Электроника&quot;" classname="Сценарий: Страхование путешественников" time="0.27">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 35592
+Only local connections are allowed.
+фев 05, 2018 10:54:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[1517860495.238][SEVERE]: Unable to receive message from renderer
+]]></system-err>
+  </testcase>
+  <testcase name="Сценарий: Страхование путешественников" classname="Сценарий: Страхование путешественников" time="0.272">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Функционал: Страхование" classname="Функционал: Страхование" time="0.748">
+    <error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=64.0.3282.140)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;MacBook-Pro-service.local&apos;, ip: &apos;192.168.1.68&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_151&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}&#10;Session ID: c571e448aa661b74b5990f5bf0fb95c9" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: c571e448aa661b74b5990f5bf0fb95c9
+</error>
+  </testcase>
 </testsuite>

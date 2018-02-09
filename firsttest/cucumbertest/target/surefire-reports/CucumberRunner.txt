@@ -1,4 +1,23 @@
 -------------------------------------------------------------------------------
 Test set: CucumberRunner
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.822 sec - in CucumberRunner
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 57.522 sec <<< FAILURE! - in CucumberRunner
+Когда выбран пункт меню "Электроника"(Сценарий: Страхование путешественников)  Time elapsed: 0.27 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Сценарий: Страхование путешественников  Time elapsed: 0.272 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Функционал: Страхование  Time elapsed: 0.748 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=64.0.3282.140)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.11.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'MacBook-Pro-service.local', ip: '192.168.1.68', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/hc/3f86917112g...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.140, webStorageEnabled: true}
+Session ID: c571e448aa661b74b5990f5bf0fb95c9
+

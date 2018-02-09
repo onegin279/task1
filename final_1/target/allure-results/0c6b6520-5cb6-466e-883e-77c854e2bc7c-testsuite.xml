@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518120357599" stop="1518120386977" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс Маркет</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1518120358061" stop="1518120386970" status="pending">
+            <name>Телевизоры</name>
+            <title>Телевизоры</title>
+            <description type="text"></description>
+            <failure>
+                <message>Test not implemented yet</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1518120386508" stop="1518120386584" status="canceled">
+                    <name>Когда выбран пункт меню "Электроника"</name>
+                    <title>Когда выбран пункт меню "Электроника"</title>
+                </step>
+                <step start="1518120386584" stop="1518120386589" status="canceled">
+                    <name>Тогда выбран пункт меню Телевизоры</name>
+                    <title>Тогда выбран пункт меню Телевизоры</title>
+                </step>
+                <step start="1518120386590" stop="1518120386590" status="canceled">
+                    <name>Когда выбран пункт Перейти ко всем фильтрам</name>
+                    <title>Когда выбран пункт Перейти ко всем фильтрам</title>
+                </step>
+                <step start="1518120386591" stop="1518120386592" status="canceled">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                </step>
+                <step start="1518120386593" stop="1518120386593" status="canceled">
+                    <name>Когда выбран Samsung</name>
+                    <title>Когда выбран Samsung</title>
+                </step>
+                <step start="1518120386593" stop="1518120386593" status="canceled">
+                    <name>Тогда выбран Lg</name>
+                    <title>Тогда выбран Lg</title>
+                </step>
+                <step start="1518120386594" stop="1518120386594" status="canceled">
+                    <name>Когда нажать Показать подходящие</name>
+                    <title>Когда нажать Показать подходящие</title>
+                </step>
+                <step start="1518120386594" stop="1518120386594" status="canceled">
+                    <name>Тогда отобразились 12 позиций</name>
+                    <title>Тогда отобразились 12 позиций</title>
+                </step>
+                <step start="1518120386594" stop="1518120386594" status="canceled">
+                    <name>Когда проверить поиск по первому значению</name>
+                    <title>Когда проверить поиск по первому значению</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Телевизоры"/>
+                <label name="feature" value="Яндекс Маркет"/>
+                <label name="host" value="MacBook-Pro-service.local"/>
+                <label name="thread" value="40545@MacBook-Pro-service.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс Маркет"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

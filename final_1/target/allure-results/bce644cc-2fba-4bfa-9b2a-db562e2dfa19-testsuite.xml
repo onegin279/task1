@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1518203596243" stop="1518203633572" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Яндекс Маркет</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1518203596604" stop="1518203633568" status="broken">
+            <name>Телевизоры</name>
+            <title>Телевизоры</title>
+            <description type="text"></description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at pages.BasePage.fillField(BasePage.java:14)
+	at pages.ResPage.assertFirst(ResPage.java:39)
+	at steps.ResPageSteps.assertFirst(ResPageSteps.java:16)
+	at steps.ScenerioSteps.assertFirstElem(ScenerioSteps.java:77)
+	at ✽.Когда проверить поиск по первому значению(Телевизоры.feature:18)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1518203610406" stop="1518203615756" status="passed">
+                    <name>Когда выбран пункт меню "Электроника"</name>
+                    <title>Когда выбран пункт меню "Электроника"</title>
+                    <steps>
+                        <step start="1518203611150" stop="1518203615754" status="passed">
+                            <name>selectMainMenu[Электроника]</name>
+                            <title>Выбран пункт меню - Электроника</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518203615756" stop="1518203620907" status="passed">
+                    <name>Тогда выбран пункт меню Телевизоры</name>
+                    <title>Тогда выбран пункт меню Телевизоры</title>
+                    <steps>
+                        <step start="1518203615758" stop="1518203620907" status="passed">
+                            <name>selectSubMenu</name>
+                            <title>Выбран пункт меню - Телевизоры</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518203620907" stop="1518203624970" status="passed">
+                    <name>Когда выбран пункт Перейти ко всем фильтрам</name>
+                    <title>Когда выбран пункт Перейти ко всем фильтрам</title>
+                    <steps>
+                        <step start="1518203620908" stop="1518203624969" status="passed">
+                            <name>selectAllFilters</name>
+                            <title>Выбран пункт - Перейти ко всем фильтрам</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518203624970" stop="1518203625657" status="passed">
+                    <name>Когда заполняются поля:</name>
+                    <title>Когда заполняются поля:</title>
+                    <steps>
+                        <step start="1518203625143" stop="1518203625657" status="passed">
+                            <name>stepFillField[Цена, 20000]</name>
+                            <title>Поле Цена заполняется значением 20000</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518203625657" stop="1518203625983" status="passed">
+                    <name>Когда выбран Samsung</name>
+                    <title>Когда выбран Samsung</title>
+                    <steps>
+                        <step start="1518203625658" stop="1518203625982" status="passed">
+                            <name>stepSamsung</name>
+                            <title>Выбрать Samsung</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518203625983" stop="1518203626381" status="passed">
+                    <name>Тогда выбран Lg</name>
+                    <title>Тогда выбран Lg</title>
+                    <steps>
+                        <step start="1518203625985" stop="1518203626381" status="passed">
+                            <name>stepLg</name>
+                            <title>Выбрать Lg</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518203626382" stop="1518203630652" status="passed">
+                    <name>Когда нажать Показать подходящие</name>
+                    <title>Когда нажать Показать подходящие</title>
+                    <steps>
+                        <step start="1518203626383" stop="1518203630651" status="passed">
+                            <name>showRes</name>
+                            <title>Нажать Показать подходящие</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518203630652" stop="1518203630750" status="passed">
+                    <name>Тогда отобразились 12 позиций</name>
+                    <title>Тогда отобразились 12 позиций</title>
+                    <steps>
+                        <step start="1518203630653" stop="1518203630750" status="passed">
+                            <name>checkElementsCount[12]</name>
+                            <title>Проверка соответствия количества элементов на странице</title>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1518203630750" stop="1518203633194" status="broken">
+                    <name>Когда проверить поиск по первому значению</name>
+                    <title>Когда проверить поиск по первому значению</title>
+                    <attachments>
+                        <attachment title="Скриншот в момент ошибки" source="dd7860c1-4491-45b3-a05d-5e6060d22dad-attachment.png" type="image/png"/>
+                    </attachments>
+                    <steps>
+                        <step start="1518203630751" stop="1518203631039" status="broken">
+                            <name>assertFirst</name>
+                            <title>Проверка запомненого значения</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Телевизоры"/>
+                <label name="feature" value="Яндекс Маркет"/>
+                <label name="host" value="MacBook-Pro-service.local"/>
+                <label name="thread" value="41229@MacBook-Pro-service.local.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Яндекс Маркет"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

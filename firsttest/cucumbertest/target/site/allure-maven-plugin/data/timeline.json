@@ -4,7 +4,7 @@
     "threads" : [ {
       "title" : "33293@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "b435ad95c9bad100",
+        "uid" : "3026fd52ae56e5f4",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -18,7 +18,7 @@
     }, {
       "title" : "33289@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "3ab651c6a32577f8",
+        "uid" : "5221b9b754372754",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -32,7 +32,7 @@
     }, {
       "title" : "33370@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "e0d129ff5a5eb9c1",
+        "uid" : "60d5fa87211c66d8",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -46,7 +46,7 @@
     }, {
       "title" : "34096@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "73cdf51b3c4442d6",
+        "uid" : "ea33d3f6348982ea",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -60,7 +60,7 @@
     }, {
       "title" : "36160@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "c55444fe6f911faf",
+        "uid" : "89b08598f4a4e9e5",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -74,7 +74,7 @@
     }, {
       "title" : "34250@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "e14ef6ad63a6c413",
+        "uid" : "8f5a47100ca20b42",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -88,7 +88,7 @@
     }, {
       "title" : "34226@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "ea3a4c654bdfb2f",
+        "uid" : "60c3f093e0cbad4f",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -102,7 +102,7 @@
     }, {
       "title" : "34124@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "63f72465b8355353",
+        "uid" : "1fc16181392dd2f0",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -114,9 +114,23 @@
         "status" : "FAILED"
       } ]
     }, {
+      "title" : "37299@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "9929ec069bce2ea7",
+        "name" : "Страхование путешественников",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517860441691,
+          "stop" : 0,
+          "duration" : -1517860441691
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
       "title" : "33404@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "cf16de0b29c02874",
+        "uid" : "41a013ccd01261a7",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -128,9 +142,23 @@
         "status" : "FAILED"
       } ]
     }, {
+      "title" : "37155@MacBook-Pro-service.local.main(1)",
+      "testCases" : [ {
+        "uid" : "39f5f87dc34382e0",
+        "name" : "Страхование путешественников",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517859249727,
+          "stop" : 1517859316855,
+          "duration" : 67128
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
       "title" : "35912@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "93f82569c7c15f09",
+        "uid" : "a818ee9538379819",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -144,7 +172,7 @@
     }, {
       "title" : "34200@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "bdd46685f89b2e05",
+        "uid" : "17fd84d059c6d541",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -158,7 +186,7 @@
     }, {
       "title" : "33712@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "21a40df7ee9d9d26",
+        "uid" : "e643ee8cf90a3bc9",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -172,7 +200,7 @@
     }, {
       "title" : "34179@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "5f747a4fe000fca",
+        "uid" : "5cf1a6b2ca6920b3",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -186,7 +214,7 @@
     }, {
       "title" : "33833@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "1b8250b3d8132ee4",
+        "uid" : "6a132d44cbab0b07",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -200,7 +228,7 @@
     }, {
       "title" : "33579@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "9e839a3b2a521cab",
+        "uid" : "49ab5a52a1ebaf83",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -214,7 +242,7 @@
     }, {
       "title" : "33229@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "3621ee29687ac16d",
+        "uid" : "6d2b9bdd66e86771",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -228,7 +256,7 @@
     }, {
       "title" : "35967@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "92aaef08250ecd56",
+        "uid" : "3c10f0f50e9b3ce3",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -242,7 +270,7 @@
     }, {
       "title" : "34158@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "32529f8845eb98c6",
+        "uid" : "79ed3aaf31fdb5c4",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -256,7 +284,7 @@
     }, {
       "title" : "33644@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "7ec2ae854e018c92",
+        "uid" : "d768929b26b2fb30",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -270,7 +298,7 @@
     }, {
       "title" : "33521@MacBook-Pro-service.local.main(1)",
       "testCases" : [ {
-        "uid" : "42b3cb16491d1f85",
+        "uid" : "b91db13a05650898",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {

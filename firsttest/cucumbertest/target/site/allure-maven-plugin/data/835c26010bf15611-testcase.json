@@ -1,0 +1,239 @@
+{
+  "uid" : "835c26010bf15611",
+  "name" : "Страхование путешественников",
+  "title" : "Страхование путешественников",
+  "time" : {
+    "start" : 1517612194347,
+    "stop" : 1517612235735,
+    "duration" : 41388
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 12
+  },
+  "failure" : {
+    "message" : "Unimplemented steps were found",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "suite" : {
+    "uid" : "4cbef3da4d82091e",
+    "name" : "Страхование",
+    "title" : "Страхование"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Застраховать\"",
+    "title" : "Когда выбран пункт меню \"Застраховать\"",
+    "time" : {
+      "start" : 1517612229599,
+      "stop" : 1517612234421,
+      "duration" : 4822
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMainMenu[Застраховать]",
+      "title" : "Выбран пункт меню - Застраховать себя и имущество",
+      "time" : {
+        "start" : 1517612231838,
+        "stop" : 1517612234382,
+        "duration" : 2544
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран пункт меню Страхование путешественников",
+    "title" : "Тогда выбран пункт меню Страхование путешественников",
+    "time" : {
+      "start" : 1517612234423,
+      "stop" : 1517612235333,
+      "duration" : 910
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectSubMenu",
+      "title" : "Выбран пункт меню - Страхование путешественников",
+      "time" : {
+        "start" : 1517612234427,
+        "stop" : 1517612235333,
+        "duration" : 906
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "выполнена проверка заголовка - \"Страхование путешественников\"",
+    "title" : "выполнена проверка заголовка - \"Страхование путешественников\"",
+    "time" : {
+      "start" : 1517612235335,
+      "stop" : 1517612235339,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выполнено нажатие на кнопку - Оформить Онлайн",
+    "title" : "выполнено нажатие на кнопку - Оформить Онлайн",
+    "time" : {
+      "start" : 1517612235349,
+      "stop" : 1517612235349,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выбрана минимальная сумма",
+    "title" : "выбрана минимальная сумма",
+    "time" : {
+      "start" : 1517612235349,
+      "stop" : 1517612235349,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выполнено нажатие на кнопку - Оформить",
+    "title" : "выполнено нажатие на кнопку - Оформить",
+    "time" : {
+      "start" : 1517612235349,
+      "stop" : 1517612235349,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1517612235349,
+      "stop" : 1517612235350,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Тогда значения полей равны:",
+    "title" : "Тогда значения полей равны:",
+    "time" : {
+      "start" : 1517612235350,
+      "stop" : 1517612235350,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выполнено нажатие на кнопку - Продолжить",
+    "title" : "выполнено нажатие на кнопку - Продолжить",
+    "time" : {
+      "start" : 1517612235732,
+      "stop" : 1517612235732,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "выполнена проверка ошибочного сообщения - \"Заполнены не все обязательные поля\"",
+    "title" : "выполнена проверка ошибочного сообщения - \"Заполнены не все обязательные поля\"",
+    "time" : {
+      "start" : 1517612235732,
+      "stop" : 1517612235732,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Страхование"
+  }, {
+    "name" : "suite-name",
+    "value" : "Страхование"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Страхование путешественников"
+  }, {
+    "name" : "thread",
+    "value" : "33229@MacBook-Pro-service.local.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-service.local"
+  } ],
+  "parameters" : [ ]
+}

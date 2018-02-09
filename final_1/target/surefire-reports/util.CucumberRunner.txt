@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: util.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.529 sec <<< FAILURE! - in util.CucumberRunner
+initializationError(util.CucumberRunner)  Time elapsed: 0.013 sec  <<< ERROR!
+cucumber.runtime.CucumberException: You're not allowed to extend classes that define Step Definitions or hooks. class steps.ResPageSteps extends class steps.BaseSteps
+

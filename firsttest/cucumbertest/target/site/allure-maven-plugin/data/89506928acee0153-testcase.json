@@ -1,0 +1,320 @@
+{
+  "uid" : "89506928acee0153",
+  "name" : "Страхование путешественников",
+  "title" : "Страхование путешественников",
+  "time" : {
+    "start" : 1517663084811,
+    "stop" : 1517663120947,
+    "duration" : 36136
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 17
+  },
+  "failure" : {
+    "message" : "AssertionError: Поле 'Фамилия застрахованного' не объявлено на странице",
+    "stackTrace" : "java.lang.AssertionError: Поле 'Фамилия застрахованного' не объявлено на странице\n\tat pages.SendAppPage.fillField(SendAppPage.java:120)\n\tat steps.SendAppSteps.stepFillField(SendAppSteps.java:43)\n\tat steps.ScenarioSteps.lambda$fillField$0(ScenarioSteps.java:59)\n\tat java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)\n\tat java.util.Collections$UnmodifiableMap.forEach(Collections.java:1505)\n\tat steps.ScenarioSteps.fillField(ScenarioSteps.java:59)\n\tat ✽.Когда заполняются поля:(Страхование.feature:17)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "4cbef3da4d82091e",
+    "name" : "Страхование",
+    "title" : "Страхование"
+  },
+  "steps" : [ {
+    "name" : "Когда выбран пункт меню \"Застраховать\"",
+    "title" : "Когда выбран пункт меню \"Застраховать\"",
+    "time" : {
+      "start" : 1517663107690,
+      "stop" : 1517663109859,
+      "duration" : 2169
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectMainMenu[Застраховать]",
+      "title" : "Выбран пункт меню - Застраховать себя и имущество",
+      "time" : {
+        "start" : 1517663109065,
+        "stop" : 1517663109856,
+        "duration" : 791
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда выбран пункт меню Страхование путешественников",
+    "title" : "Тогда выбран пункт меню Страхование путешественников",
+    "time" : {
+      "start" : 1517663109863,
+      "stop" : 1517663114505,
+      "duration" : 4642
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "selectSubMenu",
+      "title" : "Выбран пункт меню - Страхование путешественников",
+      "time" : {
+        "start" : 1517663109865,
+        "stop" : 1517663114505,
+        "duration" : 4640
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выполнено нажатие на картинку Оформить",
+    "title" : "Когда выполнено нажатие на картинку Оформить",
+    "time" : {
+      "start" : 1517663114505,
+      "stop" : 1517663115596,
+      "duration" : 1091
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "stepExecuteButton",
+      "title" : "Выполнено нажатие на кнопку Оформить",
+      "time" : {
+        "start" : 1517663114507,
+        "stop" : 1517663115596,
+        "duration" : 1089
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда выполнен переход на новую вкладку",
+    "title" : "Когда выполнен переход на новую вкладку",
+    "time" : {
+      "start" : 1517663115597,
+      "stop" : 1517663115699,
+      "duration" : 102
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "chVkladka",
+      "title" : "Переход на следующую вкладку",
+      "time" : {
+        "start" : 1517663115598,
+        "stop" : 1517663115699,
+        "duration" : 101
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда нажатие на Минимальная",
+    "title" : "Когда нажатие на Минимальная",
+    "time" : {
+      "start" : 1517663115699,
+      "stop" : 1517663118867,
+      "duration" : 3168
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickMinimal",
+      "title" : "Выбор - Минимальная",
+      "time" : {
+        "start" : 1517663115702,
+        "stop" : 1517663118867,
+        "duration" : 3165
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "И нажатие на Оформить",
+    "title" : "И нажатие на Оформить",
+    "time" : {
+      "start" : 1517663118868,
+      "stop" : 1517663119443,
+      "duration" : 575
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "clickOformit",
+      "title" : "Click oformit",
+      "time" : {
+        "start" : 1517663118869,
+        "stop" : 1517663119442,
+        "duration" : 573
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Когда заполняются поля:",
+    "title" : "Когда заполняются поля:",
+    "time" : {
+      "start" : 1517663119443,
+      "stop" : 1517663120413,
+      "duration" : 970
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 1
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Скриншот в момент ошибки",
+      "source" : "ea34f42e-9d85-4a50-b0fb-7ee5c6ab634c-attachment.png",
+      "type" : "image/png",
+      "size" : 69574,
+      "uid" : "a3b8782d58fe2c39"
+    } ],
+    "steps" : [ {
+      "name" : "stepFillField[Фамилия застрахованного, IVANOV]",
+      "title" : "Поле Фамилия застрахованного заполняется значением IVANOV",
+      "time" : {
+        "start" : 1517663119595,
+        "stop" : 1517663119648,
+        "duration" : 53
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "FAILED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "Тогда значения полей равны:",
+    "title" : "Тогда значения полей равны:",
+    "time" : {
+      "start" : 1517663120414,
+      "stop" : 1517663120417,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Когда нажатие на Продолжить",
+    "title" : "Когда нажатие на Продолжить",
+    "time" : {
+      "start" : 1517663120418,
+      "stop" : 1517663120418,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Тогда наличие ошибки отсутсвия обязательных полей",
+    "title" : "Тогда наличие ошибки отсутсвия обязательных полей",
+    "time" : {
+      "start" : 1517663120418,
+      "stop" : 1517663120419,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Страхование"
+  }, {
+    "name" : "suite-name",
+    "value" : "Страхование"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Страхование путешественников"
+  }, {
+    "name" : "thread",
+    "value" : "34158@MacBook-Pro-service.local.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-service.local"
+  } ],
+  "parameters" : [ ]
+}

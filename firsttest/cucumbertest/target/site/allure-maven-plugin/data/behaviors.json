@@ -2,26 +2,26 @@
   "features" : [ {
     "title" : "Страхование",
     "statistic" : {
-      "total" : 20,
-      "passed" : 2,
+      "total" : 22,
+      "passed" : 4,
       "pending" : 3,
       "canceled" : 0,
       "failed" : 8,
       "broken" : 7
     },
     "stories" : [ {
-      "uid" : "df738dd95c263fa1",
+      "uid" : "54aaf32c2b9ef46d",
       "title" : "Страхование путешественников",
       "statistic" : {
-        "total" : 20,
-        "passed" : 2,
+        "total" : 22,
+        "passed" : 4,
         "pending" : 3,
         "canceled" : 0,
         "failed" : 8,
         "broken" : 7
       },
       "testCases" : [ {
-        "uid" : "b435ad95c9bad100",
+        "uid" : "3026fd52ae56e5f4",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -32,7 +32,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "3ab651c6a32577f8",
+        "uid" : "5221b9b754372754",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -43,7 +43,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "e0d129ff5a5eb9c1",
+        "uid" : "60d5fa87211c66d8",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -54,7 +54,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "73cdf51b3c4442d6",
+        "uid" : "ea33d3f6348982ea",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -65,7 +65,7 @@
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "c55444fe6f911faf",
+        "uid" : "89b08598f4a4e9e5",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -76,7 +76,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "e14ef6ad63a6c413",
+        "uid" : "8f5a47100ca20b42",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -87,7 +87,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "ea3a4c654bdfb2f",
+        "uid" : "60c3f093e0cbad4f",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -98,7 +98,7 @@
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "63f72465b8355353",
+        "uid" : "1fc16181392dd2f0",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -109,7 +109,18 @@
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "cf16de0b29c02874",
+        "uid" : "9929ec069bce2ea7",
+        "name" : "Страхование путешественников",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517860441691,
+          "stop" : 0,
+          "duration" : -1517860441691
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "41a013ccd01261a7",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -120,7 +131,18 @@
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "93f82569c7c15f09",
+        "uid" : "39f5f87dc34382e0",
+        "name" : "Страхование путешественников",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1517859249727,
+          "stop" : 1517859316855,
+          "duration" : 67128
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a818ee9538379819",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -131,7 +153,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "bdd46685f89b2e05",
+        "uid" : "17fd84d059c6d541",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -142,7 +164,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "21a40df7ee9d9d26",
+        "uid" : "e643ee8cf90a3bc9",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -153,7 +175,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "5f747a4fe000fca",
+        "uid" : "5cf1a6b2ca6920b3",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -164,7 +186,7 @@
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "1b8250b3d8132ee4",
+        "uid" : "6a132d44cbab0b07",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -175,7 +197,7 @@
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "9e839a3b2a521cab",
+        "uid" : "49ab5a52a1ebaf83",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -186,7 +208,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "3621ee29687ac16d",
+        "uid" : "6d2b9bdd66e86771",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -197,7 +219,7 @@
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "92aaef08250ecd56",
+        "uid" : "3c10f0f50e9b3ce3",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -208,7 +230,7 @@
         "severity" : "NORMAL",
         "status" : "PASSED"
       }, {
-        "uid" : "32529f8845eb98c6",
+        "uid" : "79ed3aaf31fdb5c4",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -219,7 +241,7 @@
         "severity" : "NORMAL",
         "status" : "FAILED"
       }, {
-        "uid" : "7ec2ae854e018c92",
+        "uid" : "d768929b26b2fb30",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {
@@ -230,7 +252,7 @@
         "severity" : "NORMAL",
         "status" : "BROKEN"
       }, {
-        "uid" : "42b3cb16491d1f85",
+        "uid" : "b91db13a05650898",
         "name" : "Страхование путешественников",
         "title" : "Страхование путешественников",
         "time" : {

@@ -1,0 +1,13 @@
+steps/ScenerioSteps.class
+pages/FiltersPage.class
+steps/BaseSteps.class
+steps/TvPageSteps.class
+pages/BasePage.class
+pages/TvPage.class
+pages/MainPage.class
+steps/ResPageSteps.class
+pages/ResPage.class
+steps/MainPageSteps.class
+steps/FiltersPageSteps.class
+util/TestProperties.class
+util/AllureReporter.class
